@@ -51,6 +51,6 @@ Module.symvers
 Mkfile.old
 dkms.conf
  
- # Personal
+# Personal
 \.idea
 \cmake-build-debug
