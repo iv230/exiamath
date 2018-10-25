@@ -3,5 +3,6 @@
 
 void hello(void);
 int gcd(int A, int b);
+double add(int a, int b);
 
 #endif

@@ -19,3 +19,7 @@ int gcd(int a, int b) {
     } while (a);
     return b;
 }
+
+double add(int a, int b) {
+    return a+b;
+}
