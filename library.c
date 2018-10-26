@@ -1,13 +1,7 @@
 #include "library.h"
 
 #include <stdio.h>
-
-//Structure fraction
-typedef struct Fraction Fraction;
-struct Fraction {
-    int numerator;
-    int denominator;
-};
+#include <stdlib.h>
 
 // Calcul du PGCD
 int gcd(int a, int b) {

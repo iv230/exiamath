@@ -1,11 +1,15 @@
 #ifndef EXIAMATH_LIBRARY_H
 #define EXIAMATH_LIBRARY_H
 
+//Structure fraction
+typedef struct Fraction Fraction;
+struct Fraction {
+    int numerator;
+    int denominator;
+};
+
 void hello(void);
 int gcd(int A, int b);
-double add(double a, double b);
-double sub(double a, double b);
-double mult(double a, double b);
-double div(double a, double b);
+Fraction simplificate(Fraction frac);
 
 #endif
